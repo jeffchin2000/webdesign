@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background-color: black;
+}
+
+div#title {
+    width: 20%;
+    height: 50%;
+    padding-top: 4%;
+    padding-left: 3%;
+    text-align: left;
+    border: 10px solid black;
+}
+
+h1 {
+    color: rgb(255, 245, 232);
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: left;
+}
+
+.italic {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+p {
+    width: 300px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+}
+
+div#border1 {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+
+    width: 280px;
+    height: 450px;
+    border-bottom: 2px solid white;
+}
+
+div#border2 {
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    width: 280px;
+    height: 450px;
+    border-bottom: 2px solid white;
+}
+
+div#border3 {
+    position: absolute;
+    top: 100px;
+    left: 990px;
+    width: 280px;
+    height: 450px;
+    border-bottom: 2px solid white;
+}
