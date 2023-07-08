@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    max-width: 1024px;
+    margin: auto;
+}
+
+#logo {
+    background-color: lightblue;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 15%;
+    float: left;
+    margin: 10px;
+    height: auto;
+}
+
+
+
+#phone {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    padding: 20px;
+    width: 40%;
+    background-color: lightblue;
+
+}
+
+#menu div a {
+    color: black;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-decoration: none;
+
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    background-color: lightblue;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+#feat1 {
+    justify-content: center;
+    padding: 50px;
+    background-color: lightblue;
+    flex-direction: row;
+    width: 14%;
+    float: left;
+    margin: 5px;
+}
+
+#feat2 {
+    justify-content: center;
+    padding: 50px;
+    background-color: lightblue;
+    flex-direction: row;
+    width: 14%;
+    float: left;
+    margin: 5px;
+}
+
+#feat3 {
+    justify-content: center;
+    padding: 50px;
+    background-color: lightblue;
+    flex-direction: row;
+    width: 14%;
+    float: left;
+    margin: 5px;
+}
+
+#feat4 {
+    justify-content: center;
+    padding: 50px;
+    background-color: lightblue;
+    flex-direction: row;
+    width: 14%;
+    float: left;
+    margin: 5px;
+}
+
+#textcontent {
+    justify-content: center;
+    padding: 50px;
+    background-color: lightblue;
+    flex-direction: row;
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+}
+
+#sidebar {
+    justify-content: center;
+    padding: 50px;
+    width: 32%;
+    background-color: lightblue;
+    float: right;
+    margin-top: 10px;
+}
+
+
+#footer {
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+    padding: 10px;
+    width: 98%;
+
+    float: left;
+
+}
