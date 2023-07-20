@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    max-width: 1440px;
+    margin: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.top {
+    z-index: 1;
+    position: fixed;
+    overflow: hidden;
+    height: 100px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EBEFE9;
+}
+
+#logo {
+    width: 30%;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 5%;
+    width: 60%;
+}
+
+#menu a {
+    color: #020202;
+    padding: 35px 12px;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-decoration: solid;
+}
+
+
+#menu a:hover {
+    text-decoration: underline 4px solid rgb(252, 163, 116);
+}
+
+/* #menu a:active {
+    text-decoration: underline 4px solid rgb(252, 163, 116);
+
+} */
+
+/* .active {
+    text-decoration: underline 4px solid rgb(252, 163, 116);
+} */
+
+
+
+.picture img {
+    width: 1440px;
+    height: 1000px;
+    position: relative;
+}
+
+
+
+#title1 {
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    font-size: 64px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(250, 94, 94);
+}
+
+#title2 {
+    position: absolute;
+    top: 280px;
+    left: 590px;
+    font-size: 96px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+#title3 {
+    position: absolute;
+    top: 490px;
+    left: 600px;
+    font-size: 64px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(238, 225, 208);
+}
+
+#aboutme {
+    background-color: rgb(253, 240, 233);
+    height: 910px;
+    position: relative;
+}
+
+
+#pictureaboutme {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+#pictureaboutme img {
+    border-radius: 25px;
+}
+
+#righttopaboutme {
+    width: 40%;
+    position: absolute;
+    top: 100px;
+    left: 750px;
+}
+
+#righttopaboutme h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 48px;
+}
+
+#righttopaboutme p {
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 24px;
+}
+
+#rightbottomaboutme {
+    width: 50%;
+    position: absolute;
+    top: 350px;
+    left: 750px;
+
+}
+
+#rightbottomaboutme p {
+    display: inline-block;
+}
+
+.pbold {
+    width: 25%;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.pnormal {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+#rightbottomaboutme a {
+    padding-left: 20px;
+
+}
