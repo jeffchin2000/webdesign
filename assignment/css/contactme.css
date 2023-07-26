@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    max-width: 100%;
+    background-color: rgb(253, 240, 233);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EBEFE9;
+}
+
+#logo {
+    width: 30%;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 60%;
+}
+
+#menu a {
+    color: #020202;
+    padding: 35px 12px;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-decoration: solid;
+}
+
+#menu a:hover {
+    text-decoration: underline 4px solid rgb(252, 163, 116);
+}
+
+#menu a.active {
+    text-decoration: underline 4px solid rgb(252, 163, 116);
+}
+
+#ContactMe {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 4%;
+}
+
+#contactdetailhead {
+    width: 100%;
+    margin-top: 4%;
+}
+
+#contactdetailhead h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 48px;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+#contactdetailhead p {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+#contactdetail {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#contactdetail div {
+    width: 15%;
+    border: 3px solid #FCA374;
+    padding: 1%;
+
+}
+
+#contactdetail h2 {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #FCA374;
+}
+
+#contactdetail p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#bot {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #EBEFE9;
+    padding-bottom: 5%;
+}
+
+#footer1 {
+    margin-top: 1%;
+}
+
+#footer2 {
+    margin-top: 2%;
+}
+
+#footer3 {
+    margin-top: 1%;
+}
+
+#footer1 p {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+#footer1 a {
+    padding-left: 15px;
+}
+
+
+
+#footer2 a {
+    color: #020202;
+    padding: 5px 12px;
+    display: flex;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-decoration: solid;
+}
+
+#footer2 a:hover {
+    text-decoration: underline 4px solid rgb(252, 163, 116);
+}
+
+
+#footer3 p {
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .top {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #EBEFE9;
+    }
+
+    #logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #menu a {
+        color: #020202;
+        padding: 35px 12px;
+        display: flex;
+        flex-direction: row;
+        font-size: 2.5vh;
+        font-family: sans-serif;
+        text-decoration: solid;
+    }
+
+    #contactdetail {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #contactdetail div {
+        width: 40%;
+        padding: 1%;
+        margin: 5%;
+    }
+
+    #bot {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 3%;
+    }
+
+    #footer1 {
+        width: 50%;
+        text-align: center;
+    }
+
+
+    #footer2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+
+    #footer3 {
+        width: 50%;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #menu a {
+        color: #020202;
+        padding: 35px 12px;
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        font-family: sans-serif;
+        text-decoration: solid;
+    }
+
+    #contactdetailhead h1 {
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 28px;
+        padding-bottom: 2%;
+    }
+
+    #contactdetailhead p {
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+
+    #contactdetail img {
+        width: 40px;
+    }
+
+    #contactdetail h2 {
+        font-size: 20px;
+    }
+
+    #contactdetail p {
+        font-size: 16px;
+    }
+
+    #contactdetail div {
+        width: 50%;
+        padding: 1%;
+        margin: 5%;
+    }
+
+    #footer1 p {
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #footer1 img {
+        width: 30px;
+    }
+
+    #footer2 a {
+        color: #020202;
+        padding: 5px 12px;
+        display: flex;
+        font-size: 16px;
+        font-family: sans-serif;
+        text-decoration: solid;
+    }
+
+    #footer3 p {
+        font-family: sans-serif;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+}

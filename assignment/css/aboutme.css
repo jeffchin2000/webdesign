@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    max-width: 100%;
+    background-color: rgb(253, 240, 233);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.top {
+    z-index: 1;
+    /* overflow: hidden; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EBEFE9;
+}
+
+#logo {
+    width: 30%;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 60%;
+}
+
+#menu a {
+    color: #020202;
+    padding: 35px 12px;
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5vh;
+    font-family: sans-serif;
+    text-decoration: solid;
+}
+
+#menu a:hover {
+    text-decoration: underline 4px solid rgb(252, 163, 116);
+}
+
+#menu a.active {
+    text-decoration: underline 4px solid rgb(252, 163, 116);
+}
+
+/* #aboutmedetail {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+#aboutmeinfo {
+    width: 100%;
+    position: relative;
+}
+
+#pictureaboutme {
+    width: 30%;
+    position: absolute;
+    margin-top: 4%;
+    left: 10%;
+}
+
+#pictureaboutme img {
+    border-radius: 25px;
+    width: 550px;
+
+}
+
+
+#righttopaboutme {
+    position: absolute;
+    width: 30%;
+    left: 50%;
+    margin-top: 3%;
+}
+
+#righttopaboutme h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 48px;
+}
+
+#righttopaboutme p {
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 24px;
+}
+
+#rightbottomaboutme {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    margin-top: 17%;
+}
+
+#rightbottomaboutme p {
+    display: inline-block;
+}
+
+.pbold {
+    width: 25%;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.pnormal {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+#rightbottomaboutme a {
+    padding-left: 2%;
+
+}
+
+@media only screen and (max-width: 1480px) {
+
+    .top {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #EBEFE9;
+    }
+
+    #logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #menu a {
+        color: #020202;
+        padding: 35px 12px;
+        display: flex;
+        flex-direction: row;
+        font-size: 2.5vh;
+        font-family: sans-serif;
+        text-decoration: solid;
+    }
+
+    #aboutmeinfo {
+        width: 100%;
+        position: relative;
+
+    }
+
+    #righttopaboutme {
+        position: absolute;
+        text-align: center;
+        width: 50%;
+        left: 25%;
+        margin-top: 3%;
+    }
+
+    #righttopaboutme h1 {
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 5vw;
+    }
+
+    #righttopaboutme p {
+        font-family: sans-serif;
+        text-align: justify;
+        font-size: 3.5vw;
+    }
+
+    #pictureaboutme {
+        position: absolute;
+        width: 50%;
+        left: 25%;
+        margin-top: 40%;
+    }
+
+    #pictureaboutme img {
+        border-radius: 25px;
+        width: 100%;
+    }
+
+    #rightbottomaboutme {
+        position: absolute;
+        width: 65%;
+        left: 25%;
+        margin-top: 110%;
+    }
+
+    .pbold {
+        width: 25%;
+        font-size: 3.5vw;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+
+    .pnormal {
+        font-size: 3vw;
+        font-family: sans-serif;
+    }
+}

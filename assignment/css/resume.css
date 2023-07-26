@@ -1,0 +1,494 @@
+body {
+    margin: 0;
+    max-width: 100%;
+    background-color: rgb(253, 240, 233);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.top {
+    z-index: 1;
+    position: fixed;
+    /* overflow: hidden; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EBEFE9;
+}
+
+#logo {
+    width: 30%;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 60%;
+}
+
+#menu a {
+    color: #020202;
+    padding: 35px 12px;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-decoration: solid;
+}
+
+#menu a:hover {
+    text-decoration: underline 4px solid rgb(252, 163, 116);
+}
+
+#menu a.active {
+    text-decoration: underline 4px solid rgb(252, 163, 116);
+}
+
+#resume {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#navbarSection {
+    padding-left: 10%;
+    overflow: hidden;
+    position: fixed;
+    top: 30%;
+}
+
+#navbarSection a {
+    order: 3;
+    color: #020202;
+    padding: 5px 5px;
+    display: flex;
+    font-size: 28px;
+    font-family: sans-serif;
+    text-decoration: solid;
+}
+
+#navbarSection a:hover {
+    text-decoration: underline 4px solid rgb(252, 163, 116);
+}
+
+
+
+/* #resumedetail {
+    width: 100%;
+    padding-left: 33%;
+    padding-top: 10%;
+} */
+
+#Education {
+    width: 50%;
+    padding-left: 33%;
+    padding-top: 10%;
+}
+
+
+.edulist {
+    display: flex;
+    order: 3;
+    padding-bottom: 2%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+
+#Education h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 48px;
+    padding-bottom: 2%;
+}
+
+.edulogo {
+    /* width: 15%; */
+    padding-right: 4%;
+}
+
+.eduyear {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FCA374;
+
+}
+
+.eduname {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.eduschool {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 24px;
+
+}
+
+#Experience {
+    width: 50%;
+    padding-left: 33%;
+    padding-top: 10%;
+    /* height: 100vh; */
+}
+
+.explist {
+    display: flex;
+    order: 2;
+}
+
+#Experience h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 48px;
+    padding-bottom: 2%;
+}
+
+.explogo {
+    /* width: 15%; */
+    padding-right: 4%;
+}
+
+.expname {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.expdetail {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 24px;
+
+}
+
+#Skills {
+    width: 50%;
+    padding-left: 33%;
+    padding-top: 10%;
+    height: 65vh;
+}
+
+.skilist {
+    width: 50%;
+    display: flex;
+    padding-bottom: 2%;
+    float: left;
+}
+
+#Skills h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 48px;
+    padding-bottom: 2%;
+}
+
+.skilogo {
+    width: 30%;
+    /* padding-right: 4%; */
+}
+
+.skiname {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.skipercent {
+    font-family: sans-serif;
+    text-align: left;
+    font-style: italic;
+    text-align: right;
+    font-size: 24px;
+}
+
+
+progress {
+    accent-color: #FCA374;
+}
+
+#skillpic {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1480px) {
+    .top {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #EBEFE9;
+    }
+
+    #logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #menu a {
+        color: #020202;
+        padding: 35px 12px;
+        display: flex;
+        flex-direction: row;
+        font-size: 2.5vh;
+        font-family: sans-serif;
+        text-decoration: solid;
+    }
+
+    #navbarSection a {
+        order: 3;
+        color: #020202;
+        padding: 5px 5px;
+        display: flex;
+        font-size: 20px;
+        font-family: sans-serif;
+        text-decoration: solid;
+    }
+
+    #Education {
+        width: 50%;
+        padding-left: 33%;
+        padding-top: 20%;
+    }
+
+    #Experience {
+        width: 50%;
+        padding-left: 33%;
+        padding-top: 20%;
+        /* height: 100vh; */
+    }
+
+    #Skills {
+        width: 50%;
+        padding-left: 33%;
+        padding-top: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .skilogo {
+        width: 30%;
+        /* padding-right: 4%; */
+    }
+
+    .skilist {
+        width: 100%;
+    }
+
+    #skillpic {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    #navbarSection a {
+        order: 3;
+        color: #020202;
+        padding: 5px 5px;
+        display: flex;
+        font-size: 16px;
+        font-family: sans-serif;
+        text-decoration: solid;
+    }
+
+    #Education {
+        width: 50%;
+        padding-left: 33%;
+        padding-top: 30%;
+    }
+
+
+    #Experience {
+        width: 50%;
+        padding-left: 33%;
+        padding-top: 30%;
+        /* height: 100vh; */
+    }
+
+    #Skills {
+        width: 50%;
+        padding-left: 33%;
+        padding-top: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .skilogo {
+        width: 45%;
+        /* padding-right: 4%; */
+    }
+
+    .skilist {
+        width: 100%;
+    }
+
+    #skillpic {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #menu a {
+        color: #020202;
+        padding: 35px 12px;
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        font-family: sans-serif;
+        text-decoration: solid;
+    }
+
+    #navbarSection {
+        padding-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        top: 30%;
+    }
+
+    #Education {
+        width: 50%;
+        padding-left: 33%;
+        padding-top: 50%;
+    }
+
+    #Education h1 {
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 28px;
+        padding-bottom: 2%;
+    }
+
+    .edulogo img {
+        width: 80px;
+
+    }
+
+    .eduyear {
+        font-family: sans-serif;
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+        color: #FCA374;
+
+    }
+
+    .eduname {
+        font-family: sans-serif;
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .eduschool {
+        font-family: sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    #Experience {
+        width: 50%;
+        padding-left: 33%;
+        padding-top: 50%;
+    }
+
+    #Experience h1 {
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 28px;
+        padding-bottom: 2%;
+    }
+
+    .explogo img {
+        width: 80px;
+
+    }
+
+    .expname {
+        font-family: sans-serif;
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .expdetail {
+        font-family: sans-serif;
+        text-align: left;
+        font-size: 16px;
+
+    }
+
+    #Skills {
+        width: 50%;
+        padding-left: 33%;
+        padding-top: 50%;
+    }
+
+    .skilogo {
+        width: 40%;
+        /* padding-right: 4%; */
+    }
+
+    .skilogo img {
+        width: 60px;
+    }
+
+    .skiname {
+        font-family: sans-serif;
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .skipercent {
+        font-family: sans-serif;
+        text-align: left;
+        font-style: italic;
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .skipic1 img {
+        width: 250px;
+    }
+
+    .skipic2 img {
+        width: 200px;
+    }
+
+    .skipic3 img {
+        width: 200px;
+    }
+}
