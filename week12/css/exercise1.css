@@ -1,0 +1,37 @@
+.cardflex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logoicon {
+    padding-right: 50%;
+    padding-left: 3%;
+}
+
+.bot {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #EBEFE9;
+    text-align: center;
+}
+
+.col1 {
+    padding-left: 3%;
+}
+
+.col2 {
+    padding-left: 5%;
+}
+
+.col3 {
+    padding-left: 5%;
+}
